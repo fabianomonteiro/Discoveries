@@ -89,3 +89,91 @@ Claro! Aqui estão as perguntas juntamente com exemplos práticos de respostas q
 ---
 
 Esses exemplos de respostas ajudarão você a identificar candidatos que não apenas possuem as habilidades técnicas necessárias, mas que também estão alinhados com a cultura e os valores da empresa. Eles demonstram experiência prática e refletem as qualidades de protagonismo, engajamento e alinhamento cultural que você busca.
+
+---
+
+Claro! Aqui estão perguntas adicionais relacionadas a **SRE**, **Observabilidade** e **FinOps**, juntamente com exemplos práticos de respostas:
+
+---
+
+**Perguntas Técnicas Adicionais com Exemplos de Respostas:**
+
+1. **SRE (Site Reliability Engineering):**
+
+   - **Pergunta:** Qual é a sua compreensão do papel de um SRE e como você aplicou práticas de SRE em projetos anteriores?
+
+   - **Resposta Exemplo:** "Entendo que o SRE é uma abordagem que aplica princípios de engenharia de software para resolver problemas operacionais, focando na confiabilidade, escalabilidade e eficiência dos sistemas. Em meu último emprego, implementei práticas de SRE ao automatizar processos de deploy e gerenciamento de infraestrutura usando ferramentas como Terraform e Ansible. Isso reduziu o tempo de inatividade e melhorou a resiliência do sistema. Também estabeleci SLOs e SLIs para monitorar e garantir o desempenho esperado dos serviços."
+
+2. **Observabilidade:**
+
+   - **Pergunta:** Como você implementa observabilidade em suas aplicações e sistemas? Quais ferramentas você utiliza?
+
+   - **Resposta Exemplo:** "Para garantir a observabilidade, incorporo logging estruturado, métricas e tracing distribuído em todas as aplicações. Utilizei o Prometheus para coletar métricas, o Grafana para visualização, e o Jaeger para tracing distribuído. Em um projeto recente, essas ferramentas me permitiram identificar rapidamente um gargalo de performance em um microserviço específico, reduzindo o tempo de resolução de incidentes."
+
+3. **FinOps (Financial Operations):**
+
+   - **Pergunta:** Você tem experiência em otimizar custos em cloud computing? Como aplicou práticas de FinOps em seus projetos?
+
+   - **Resposta Exemplo:** "Sim, tenho experiência em FinOps, que envolve a gestão eficiente de custos em ambientes de cloud. Em um projeto anterior, analisei nossos gastos na AWS e identifiquei recursos subutilizados. Implementei políticas de auto-scaling e agendamento para desligar instâncias não críticas fora do horário comercial, o que resultou em uma redução de custos de 25% ao mês. Também utilizei tags de recursos para melhorar a visibilidade dos custos por projeto e equipe."
+
+4. **Gestão de Incidentes e Resiliência:**
+
+   - **Pergunta:** Pode descrever como você lidou com um incidente crítico em produção e as medidas tomadas para prevenir ocorrências futuras?
+
+   - **Resposta Exemplo:** "Durante um lançamento, identificamos que um novo recurso estava causando falhas intermitentes no sistema. Imediatamente iniciamos um rollback e ativamos o plano de contingência. Após a estabilização, realizamos uma análise post-mortem detalhada e implementamos testes automatizados adicionais no pipeline CI/CD para capturar esse tipo de erro antes que chegue à produção."
+
+5. **Automação e Infraestrutura como Código:**
+
+   - **Pergunta:** Como você tem utilizado infraestrutura como código (IaC) para melhorar a confiabilidade e a eficiência das operações?
+
+   - **Resposta Exemplo:** "Utilizei o Terraform para definir toda a infraestrutura em código, permitindo que pudéssemos provisionar ambientes de forma consistente e repetível. Isso também facilitou o versionamento e a revisão de mudanças na infraestrutura. Em um caso, quando precisávamos replicar o ambiente de produção para testes, conseguimos fazer isso em poucas horas em vez de dias."
+
+6. **Práticas de Monitoramento e Alertas:**
+
+   - **Pergunta:** Quais métricas-chave você monitora para garantir a saúde dos sistemas e como configura alertas eficazes?
+
+   - **Resposta Exemplo:** "Monitoro métricas como tempo de resposta, taxa de erro, utilização de CPU/memória e throughput. Utilizo o AWS CloudWatch para configurar dashboards e criar alarmes que nos notificam via email e Slack quando os thresholds são excedidos. Isso nos permite ser proativos na identificação e resolução de problemas antes que afetem os usuários."
+
+7. **Cultura DevOps e Colaboração:**
+
+   - **Pergunta:** Como você promove a colaboração entre as equipes de desenvolvimento e operações para melhorar a confiabilidade do sistema?
+
+   - **Resposta Exemplo:** "Promovo a cultura DevOps incentivando a comunicação aberta e a colaboração entre as equipes. Participei da implementação de um pipeline CI/CD compartilhado, onde desenvolvedores e operadores contribuem para scripts de deploy e automação. Realizamos retrospectivas conjuntas após sprints e incidentes para aprender coletivamente e melhorar nossos processos."
+
+---
+
+**Perguntas de Soft Skills Adicionais com Exemplos de Respostas:**
+
+1. **Mentalidade de Custo e Eficiência (FinOps):**
+
+   - **Pergunta:** Como você equilibra a necessidade de desempenho com a gestão de custos em projetos de cloud computing?
+
+   - **Resposta Exemplo:** "Sempre avalio o custo-benefício de soluções propostas. Por exemplo, em um projeto, optamos por utilizar instâncias spot da AWS para workloads não críticos, o que reduziu significativamente os custos. Ao mesmo tempo, para serviços essenciais, garantimos alto desempenho usando instâncias reservadas, equilibrando custo e confiabilidade."
+
+2. **Resolução de Problemas Sob Pressão:**
+
+   - **Pergunta:** Pode nos contar sobre uma situação em que teve que resolver um problema crítico sob pressão e como lidou com isso?
+
+   - **Resposta Exemplo:** "Durante uma campanha promocional, o site começou a ficar lento devido ao alto tráfego. Mantive a calma e, junto com a equipe, escalamos rapidamente os recursos no AWS Auto Scaling Group. Depois, analisamos os logs e otimizamos consultas ao banco de dados que estavam causando lentidão. A ação rápida minimizou o impacto para os clientes."
+
+3. **Aprendizado e Melhoria Contínua:**
+
+   - **Pergunta:** Como você incorpora feedback de incidentes ou falhas para melhorar os sistemas e processos futuros?
+
+   - **Resposta Exemplo:** "Após cada incidente, participo de sessões de post-mortem onde discutimos o que ocorreu e como prevenir no futuro. Documentamos as lições aprendidas e atualizamos nossos runbooks e playbooks. Em um caso, isso levou à implementação de novos alertas que detectaram problemas semelhantes antes que afetassem os usuários."
+
+4. **Comunicação e Transparência:**
+
+   - **Pergunta:** Como você comunica questões técnicas complexas para stakeholders não técnicos?
+
+   - **Resposta Exemplo:** "Procuro usar analogias simples e focar nos impactos no negócio. Por exemplo, ao explicar a necessidade de investir em observabilidade, destaquei como isso reduziria o tempo de inatividade e melhoraria a experiência do cliente, em vez de entrar em detalhes técnicos sobre métricas e logs."
+
+5. **Prioridades e Tomada de Decisão:**
+
+   - **Pergunta:** Quando confrontado com múltiplas tarefas críticas, como você prioriza seu trabalho?
+
+   - **Resposta Exemplo:** "Avalio o impacto e a urgência de cada tarefa. Costumo usar a matriz de Eisenhower para categorizar as tarefas e foco primeiro nas que são mais críticas para o negócio. Também comunico claramente com a equipe e os gestores sobre as prioridades, garantindo alinhamento e evitando surpresas."
+
+---
+
+Essas perguntas adicionais permitirão avaliar a experiência do candidato em áreas cruciais como **SRE**, **Observabilidade** e **FinOps**, bem como suas habilidades em gestão de custos, confiabilidade do sistema e colaboração entre equipes. Os exemplos de respostas ajudam a identificar candidatos que têm experiência prática e uma compreensão profunda desses conceitos.
