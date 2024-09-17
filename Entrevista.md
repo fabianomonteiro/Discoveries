@@ -177,3 +177,75 @@ Claro! Aqui estão perguntas adicionais relacionadas a **SRE**, **Observabilidad
 ---
 
 Essas perguntas adicionais permitirão avaliar a experiência do candidato em áreas cruciais como **SRE**, **Observabilidade** e **FinOps**, bem como suas habilidades em gestão de custos, confiabilidade do sistema e colaboração entre equipes. Os exemplos de respostas ajudam a identificar candidatos que têm experiência prática e uma compreensão profunda desses conceitos.
+
+---
+
+Claro! Aqui estão perguntas adicionais sobre como o candidato lida com **incidentes**, **WarRooms** e **postmortems**, juntamente com exemplos práticos de respostas:
+
+---
+
+**Perguntas sobre Gestão de Incidentes, WarRooms e Postmortems, com Exemplos de Respostas:**
+
+1. **Gestão de Incidentes:**
+
+   - **Pergunta:** Pode nos descrever uma situação em que você enfrentou um incidente crítico em produção? Como você lidou com ele?
+
+   - **Resposta Exemplo:** "Sim, em meu último projeto, houve um incidente em que nosso serviço de autenticação ficou indisponível, afetando milhares de usuários. Assim que o problema foi detectado, ativei o protocolo de resposta a incidentes e notifiquei a equipe relevante. Trabalhei rapidamente para identificar a causa raiz, que era um certificado SSL expirado. Renovei o certificado e restabeleci o serviço. Após a resolução, documentei o incidente e propus a implementação de alertas para expiração de certificados para evitar futuros problemas semelhantes."
+
+2. **Participação em WarRooms:**
+
+   - **Pergunta:** Você já participou de uma WarRoom para resolução de um incidente? Como foi sua experiência e qual foi o seu papel?
+
+   - **Resposta Exemplo:** "Sim, participei de uma WarRoom quando nosso sistema de pagamentos sofreu uma queda durante um período de pico. Como desenvolvedor backend, meu papel foi analisar os logs e métricas dos serviços críticos. Colaborei com a equipe de infraestrutura para identificar um problema de escalonamento automático que não estava funcionando corretamente. Contribuí para a implementação de uma correção rápida e, juntos, restabelecemos o serviço em menos de uma hora."
+
+3. **Análise Postmortem:**
+
+   - **Pergunta:** Como você conduz ou participa de análises postmortem após a resolução de um incidente?
+
+   - **Resposta Exemplo:** "Após cada incidente, participo ativamente das reuniões de postmortem. Acredito que é uma oportunidade valiosa para aprender e melhorar. Durante essas reuniões, analisamos o que ocorreu, identificamos as causas raízes e discutimos o que poderia ter sido feito de forma diferente. Em um caso, sugeri a criação de um playbook de resposta a incidentes específico para falhas de banco de dados, o que foi adotado e ajudou em incidentes futuros."
+
+4. **Melhoria Contínua a Partir de Incidentes:**
+
+   - **Pergunta:** Pode dar um exemplo de como um incidente passado levou a melhorias nos processos ou sistemas?
+
+   - **Resposta Exemplo:** "Após um incidente causado por uma atualização que não passou por testes adequados, implementamos uma política mais rigorosa de integração contínua e deploy contínuo (CI/CD). Introduzimos testes automatizados e revisões de código obrigatórias antes de qualquer merge. Isso aumentou a qualidade do código e reduziu significativamente a ocorrência de problemas em produção."
+
+5. **Comunicação Durante Incidentes:**
+
+   - **Pergunta:** Como você gerencia a comunicação com a equipe e stakeholders durante um incidente crítico?
+
+   - **Resposta Exemplo:** "Durante incidentes, mantenho uma comunicação clara e frequente. Uso canais de comunicação como o Slack para atualizar a equipe em tempo real sobre o progresso. Se o incidente impacta os clientes, preparo, junto com a equipe de comunicação, mensagens transparentes sobre o problema e estimativas de resolução. Acredito que manter todos informados ajuda a reduzir a ansiedade e facilita a colaboração."
+
+6. **Preparação e Prevenção:**
+
+   - **Pergunta:** Que medidas você toma regularmente para prevenir incidentes ou minimizar seu impacto?
+
+   - **Resposta Exemplo:** "Implemento práticas de monitoramento e alertas proativos usando ferramentas como o AWS CloudWatch e o Prometheus. Também realizamos testes de carga e estresse para identificar possíveis pontos de falha. Além disso, promovo sessões de revisão de código e pair programming para garantir que potenciais problemas sejam detectados cedo."
+
+7. **Lidando com Pressão e Estresse:**
+
+   - **Pergunta:** Como você lida com o estresse e a pressão durante a resolução de incidentes críticos?
+
+   - **Resposta Exemplo:** "Procuro manter a calma e focar na solução do problema. Priorizar as ações e trabalhar em colaboração com a equipe ajuda a gerenciar a situação de forma eficaz. Após o incidente, reservo um tempo para refletir e aprender com a experiência, o que contribui para o meu desenvolvimento profissional e pessoal."
+
+8. **Documentação e Aprendizado Organizacional:**
+
+   - **Pergunta:** Qual a importância da documentação após um incidente e como você contribui para o aprendizado organizacional?
+
+   - **Resposta Exemplo:** "Acredito que a documentação é crucial para evitar a repetição de erros. Após um incidente, contribuo para a elaboração de relatórios detalhados que incluem a linha do tempo, causa raiz e medidas corretivas. Esses documentos são compartilhados com toda a organização e utilizados em treinamentos futuros."
+
+9. **Ferramentas e Processos de Resposta a Incidentes:**
+
+   - **Pergunta:** Quais ferramentas ou processos você utiliza para gerenciar e responder a incidentes de forma eficaz?
+
+   - **Resposta Exemplo:** "Utilizamos ferramentas como o PagerDuty para gerenciamento de alertas e escalonamento. Também seguimos um processo definido de resposta a incidentes que inclui identificação, contenção, resolução e recuperação. Esse processo é regularmente revisado e melhorado com base nas lições aprendidas."
+
+10. **Proatividade na Detecção de Problemas:**
+
+    - **Pergunta:** Como você atua proativamente para detectar e resolver problemas antes que se tornem incidentes?
+
+    - **Resposta Exemplo:** "Implemento monitoramento contínuo e reviso regularmente os logs em busca de anomalias. Também realizamos auditorias de segurança e compliance para identificar vulnerabilidades. Em uma ocasião, detectei um aumento incomum no tempo de resposta de um serviço, o que nos levou a identificar e resolver um problema de desempenho antes que afetasse os usuários."
+
+---
+
+Essas perguntas adicionais permitirão que você avalie a experiência do candidato em lidar com situações críticas, sua capacidade de trabalhar sob pressão e contribuir para a melhoria contínua dos processos. Os exemplos de respostas ajudam a identificar profissionais que são proativos, comunicativos e orientados a soluções, características essenciais para ambientes que exigem alta disponibilidade e confiabilidade.
